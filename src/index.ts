@@ -1,3 +1,7 @@
+import "@fontsource/poiret-one/index.css";
+import "./components/App/App.css";
+import "./components/Header/Header.css";
+import "./styles.css";
 import getApp from "./components/App/getApp";
 
 const rootElement = document.querySelector(".root");
