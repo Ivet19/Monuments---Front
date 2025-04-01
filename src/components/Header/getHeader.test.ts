@@ -6,9 +6,9 @@ describe("Given the Header component", () => {
       const screen = document.createElement("div");
       const expectedAppTitle = "Monuments";
 
-      const header = getHeader();
+      const Header = getHeader();
 
-      screen.appendChild(header);
+      screen.appendChild(Header);
 
       const appTitle = screen.querySelector("h1");
 

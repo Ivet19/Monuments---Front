@@ -1,9 +1,10 @@
 const getHeader = (): HTMLElement => {
-  const Header = document.createElement("header");
+  const header = document.createElement("header");
+  header.className = "main-header";
 
-  Header.innerHTML = "<h1 class='main-title'>Monuments</h1>";
+  header.innerHTML = "<h1 class='main-title'>Monuments</h1>";
 
-  return Header;
+  return header;
 };
 
 export default getHeader;
