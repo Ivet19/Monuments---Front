@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "prepare": "husky",
     "test": "vitest",
-    "test:dev": "vitest --watchAll"
+    "test:dev": "vitest -w"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.8.0",
