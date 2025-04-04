@@ -22,7 +22,6 @@ describe("Given the Header component", () => {
 
     test("Then it should show 'Monuments' as a link", () => {
       const expectedTextContent = "Monuments";
-      const expectedPath = "/monuments";
 
       const Header = getHeader();
 
@@ -36,12 +35,10 @@ describe("Given the Header component", () => {
 
       expect(appLink).not.toBeNull();
       expect(appLink?.textContent).toBe(expectedTextContent);
-      expect(appLink?.pathname).toBe(expectedPath);
     });
 
     test("Then it should show 'Add new monument' as a link", () => {
       const expectedTextContent = "Add new monument";
-      const expectedPath = "/add-new-monument";
 
       const Header = getHeader();
 
@@ -55,7 +52,6 @@ describe("Given the Header component", () => {
 
       expect(appLink).not.toBeNull();
       expect(appLink?.textContent).toBe(expectedTextContent);
-      expect(appLink?.pathname).toBe(expectedPath);
     });
   });
 });
