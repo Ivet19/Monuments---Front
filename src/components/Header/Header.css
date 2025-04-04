@@ -11,5 +11,28 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   border-bottom: 1px solid #827973;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+}
+
+.link {
+  color: inherit;
+  text-decoration: none;
+  padding: 2px;
+
+  &:hover {
+    background-color: #a99d96;
+  }
+}
+
+.link--current {
+  background-color: #a99d96;
 }
