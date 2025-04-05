@@ -6,11 +6,16 @@ const getApp = (): HTMLElement => {
   const App = document.createElement("div");
   App.classList.add("main-container");
 
+  const mainContainer = document.createElement("div");
+  mainContainer.classList.add("main-content-container");
+
   const Header = getHeader();
 
   const MonumentsList = getMonumentsList(monuments);
 
-  App.append(Header, MonumentsList);
+  mainContainer.appendChild(MonumentsList);
+
+  App.append(Header, mainContainer);
 
   return App;
 };
