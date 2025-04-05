@@ -8,10 +8,10 @@ const getHeader = (): HTMLElement => {
       <nav>
         <ul class="links">
           <li>
-            <a class="link" href="/monuments">Monuments</a>
+            <a class="header-link" href="/">Monuments</a>
           </li>
           <li>
-            <a class="link" href="/add-new-monument">Add new monument</a>
+            <a class="header-link" href="/add-new-monument">Add new monument</a>
           </li>
         </ul>
       </nav>
