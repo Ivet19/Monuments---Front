@@ -1,3 +1,4 @@
+import "./MonumentList.css";
 import getMonumentCard from "../MonumentCard/getMonumentCard";
 import Monument from "../../types";
 
