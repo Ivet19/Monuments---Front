@@ -1,4 +1,4 @@
-import Monument from "../monument/types";
+import Monument from "../types";
 
 const getMonuments = async (): Promise<Monument[]> => {
   const response = await fetch(

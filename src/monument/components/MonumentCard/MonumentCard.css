@@ -1,0 +1,17 @@
+li {
+  margin: 0;
+}
+
+.monument {
+  background-color: #a99d96;
+  border: 0.5px solid #857d78;
+  border-radius: 2px;
+  padding: 15px;
+  box-shadow: 10px 4px 4px #4b453d;
+}
+
+.monument__name {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}

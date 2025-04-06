@@ -3,7 +3,7 @@ import "./components/App/App.css";
 import "./components/Header/Header.css";
 import "./styles.css";
 import getApp from "./components/App/getApp";
-import getMonuments from "./client/getMonuments";
+import getMonuments from "./monument/client/getMonuments";
 
 const rootElement = document.querySelector(".root");
 
