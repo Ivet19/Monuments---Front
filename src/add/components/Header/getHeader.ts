@@ -4,7 +4,7 @@ const getHeader = (): HTMLElement => {
 
   header.innerHTML = `
     <div class="header-container">
-      <h1 class='main-title'>Monuments</h1>
+      <h1 class='main-title'>Add new monument</h1>
       <nav>
         <ul class="links">
           <li>
